@@ -1,2 +1,2 @@
 # Delivery
-The Delivery Team - Duke University EGR 101 - Skanska
+The Delivery Team - Duke University EGR 101
