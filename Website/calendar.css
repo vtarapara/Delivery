@@ -12,6 +12,7 @@
     display: flex;
     flex-flow: wrap;
 }
+
 .calendar .days .day_name {
     width: calc(100% / 7);
     border-right: 1px solid #2c7aca;
@@ -40,7 +41,7 @@
 }
 .calendar .days .day_num span {
     display: inline-flex;
-    width: 30px;
+    width: 32px;
     font-size: 14px;
 }
 .calendar .days .day_num .event {

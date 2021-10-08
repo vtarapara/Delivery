@@ -12,7 +12,7 @@ class Calendar {
 
     public function add_event($txt, $date, $days = 1, $color = '') {
         $color = $color ? ' ' . $color : $color;
-        $this->events[] = [$txt, $date, $days, $color];
+        $this->events[] = ["<span onclick='popup();'>" . $txt . "</span>", $date, $days, $color];
     }
 
     public function __toString() {
@@ -34,6 +34,9 @@ class Calendar {
                 </div>
             ';
         }
+
+		//Start adding normal days:
+
         for ($i = $first_day_of_week; $i > 0; $i--) {
             $html .= '
                 <div class="day_num ignore">

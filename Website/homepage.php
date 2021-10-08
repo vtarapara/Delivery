@@ -25,4 +25,10 @@ if (($handle = fopen("data.csv", "r")) !== FALSE) {
 <html>
 
   <link rel="stylesheet" href="calendar.css">
+  
+  <script>
+	  function popup() {
+		  alert("hi");
+	  }
+	 </script>
   </html>
