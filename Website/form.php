@@ -6,7 +6,7 @@ if (isset($_POST['submit'])) {
 	$name = $_POST['name'];
 	$descrip = $_POST['descrip'];
 	$date = $_POST['date'];
-	$time = $_POST['date'];
+	$time = $_POST['time'];
 	
 	$toAdd = array($name,$descrip,$date,$time);
 	
@@ -28,6 +28,9 @@ if (isset($_POST['submit'])) {
 	else {
 		echo "DID NOT ADD ITEM SINCE DUPLICATE ALREADY EXISTS";
 	}
+	
+	header('Location: homepage.php');
+	
 
 }
 

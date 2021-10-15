@@ -1,4 +1,7 @@
 <?php
+
+//https://codeshack.io/event-calendar-php/ 
+
 class Calendar {
 
     private $active_year, $active_month, $active_day;
@@ -23,7 +26,12 @@ class Calendar {
         $html = '<div class="calendar">';
         $html .= '<div class="header">';
         $html .= '<div class="month-year">';
-        $html .= date('F Y', strtotime($this->active_year . '-' . $this->active_month . '-' . $this->active_day));
+        //$html .= date('F Y', strtotime($this->active_year . '-' . $this->active_month . '-' . $this->active_day));
+		
+		
+		//Date SWITCHER HTML FORM ---------
+		
+		
         $html .= '</div>';
         $html .= '</div>';
         $html .= '<div class="days">';
