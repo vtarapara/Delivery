@@ -1,5 +1,5 @@
 <?php
-include 'Calendar.php';
+include 'calendar.php';
 
 $row = 1;
 $month = date('Y')."-".date('m');//Default to current month
@@ -82,7 +82,7 @@ if (($handle = fopen("data.csv", "r")) !== FALSE) {
  <div id="myModal" class="modal">
 
    <!-- Modal content -->
-   <div class="modal-content">
+   <div class="mmodal-content">
      <span class="close">&times;</span>
      <p>Some text in the Modal..</p>
    </div>
