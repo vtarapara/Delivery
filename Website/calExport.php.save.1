@@ -19,19 +19,14 @@ $arr = array($columns[0] => $data[0],
              $columns[3] => $data[3]); 
 
 
-	array_push($result,array($data[2] => $arr));
+	array_push($result,$arr);
     }
-
-
     fclose($file_handle);
 }
 
 // print_r($result); // I see all data(s) except the header
 
-
 $json = json_encode($result);
-$json = trim($json, '[]');
-$json =  str_replace("},{",",",$json);
 echo $json;
 
 ?>
