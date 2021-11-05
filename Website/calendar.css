@@ -55,7 +55,7 @@
     word-wrap: break-word;
 }
 .calendar .days .day_num .event.green {
-    background-color: #51ce57;
+    background-color: #3d9b35; /*3d9b35-51ce57*/
 }
 .calendar .days .day_num .event.blue {
     background-color: #518fce;
