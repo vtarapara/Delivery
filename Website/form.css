@@ -17,7 +17,8 @@ input[type=submit] {
   color: white;
   padding: 14px 20px;
   border-width: medium;
-  size: 10px;
+  font-size: 12px;
+  font-weight: bold;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
