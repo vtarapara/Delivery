@@ -11,8 +11,8 @@ input, select {
 }
 input[type=text]{
  width: 100%;
-  background-color: #3d9b35;
-  border-color: #f2f2f2;
+  background-color: #f2f2f2;
+  border-color: #3d9b35;
   color: white;
   padding: 14px 20px;
   border-width: medium;
