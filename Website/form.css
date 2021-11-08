@@ -24,6 +24,11 @@ input[type=text]{
    border-radius: 12px;
    cursor: pointer;
 }
+input[type=name]{
+color: green;
+ font-size: 18px;
+  font-color: #3b4656 ;
+}
 input[type=time]{
  width: 100%;
   background-color: #f2f2f2;
