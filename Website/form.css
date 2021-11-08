@@ -10,19 +10,19 @@ input, select {
   box-sizing: border-box;
 }
 input[type=text]{
- width: 100%;
-  background-color: #f2f2f2;
-  border-color: #3d9b35;
-  color: green;
-  padding: 14px 20px;
-  border-width: medium;
-  font-size: 18px;
- font-color: #3b4656 ;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
-  border-radius: 12px;
-  cursor: pointer;
+   background-color: #f2f2f2;
+   border-color: #3d9b35;
+   color: green;
+   padding: 14px 20px;
+   border-width: medium;
+   font-size: 18px;
+   font-color: #3b4656 ;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   border-radius: 12px;
+   cursor: pointer;
 }
 input[type=time]{
  width: 100%;
