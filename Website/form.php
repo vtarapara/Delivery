@@ -38,10 +38,10 @@ if (isset($_POST['submit'])) {
 
 
 <html>
-<div class = "logo">
   <link rel="stylesheet" href="form.css">
-</div>
+<div class = "logo">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Skanska.svg/1280px-Skanska.svg.png" alt="Skanska">
+</div>
 <h1> Schedule New Delivery: </h1>
 <form method="post" name="form" enctype="multipart/form-data">
     <input type="text" name="name" id="name" placeholder="Company Name" required/>
