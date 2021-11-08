@@ -1,9 +1,6 @@
 input, select {
   width: 100%;
   padding: 12px 20px;
-  border-color: #3d9b35;
-  border-width: medium;
-  border-radius: 4px;
   margin: 8px 0;
   display: inline-block;
   margin-left: auto;
@@ -12,7 +9,24 @@ input, select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+input[type=text]{
+ width: 100%;
+  background-color: #3d9b35;
+  border-color: #f2f2f2;
+  color: white;
+  padding: 14px 20px;
+  border-width: medium;
+  font-size: 18px;
+  font-weight: bold;
+  font-color: #3d9b35;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
 
+
+}
 input[type=submit] {
   width: 100%;
   background-color: #3d9b35;
