@@ -13,7 +13,7 @@ input[type=text]{
   width: 100%;
    background-color: #f2f2f2;
    border-color: #3d9b35;
-   color: green;
+   color: gray;
    padding: 14px 20px;
    border-width: medium;
    font-size: 18px;
@@ -24,16 +24,12 @@ input[type=text]{
    border-radius: 12px;
    cursor: pointer;
 }
-input[type=name]{
-color: green;
- font-size: 18px;
-  font-color: #3b4656 ;
-}
+
 input[type=time]{
  width: 100%;
   background-color: #f2f2f2;
   border-color: #3d9b35;
-  color: green;
+  color: gray;
   padding: 14px 20px;
   border-width: medium;
   font-size: 18px;
@@ -48,7 +44,7 @@ input[type=date]{
  width: 100%;
   background-color: #f2f2f2;
   border-color: #3d9b35;
-  color: green;
+  color: gray;
   padding: 14px 20px;
   border-width: medium;
   font-size: 18px;
