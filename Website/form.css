@@ -86,3 +86,8 @@ div {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+.logo {
+   max-width: 50%
+   height: 50%
+}
