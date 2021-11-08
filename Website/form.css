@@ -46,8 +46,8 @@ input[type=date]{
   color: white;
   padding: 14px 20px;
   border-width: medium;
-  font-size: 18px;
-  font-color: #3b4656 ;
+  date-size: 18px;
+  date-color: #3b4656 ;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
