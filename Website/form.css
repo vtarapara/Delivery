@@ -92,3 +92,10 @@ img.logo1 {
    max-width: 40%;
    max-height: 40%;
 }
+
+html {
+  background: url(https://www.skanska.com/49bf72/siteassets/secondary-content-area/the-scalpel.jpg?width=440) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
